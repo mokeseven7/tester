@@ -17,7 +17,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: khan/pull-request-comment-trigger@master
+      - uses: mokeseven7/pull-request@v1.0.1
         id: check
         with:
           trigger: '@deploy'
