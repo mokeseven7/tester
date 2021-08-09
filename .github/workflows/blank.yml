@@ -17,7 +17,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: mokeseven7/pull-request@main
+      - name: Deploy With Comment
+        uses: mokeseven7/pull-request@v.2.0.0
         id: check
         with:
           trigger: '@deploy'
